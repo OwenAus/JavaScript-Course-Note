@@ -1,0 +1,143 @@
+###########################################################################
+# Page tree
+nav:
+  - Home: index.md
+
+  - Section 1:
+      - Welcome: Section_1_Welcome.md
+      - 1 Course Structure and Projects: Section_1_i1_Course Structure and Projects.md
+      - 2 Read Before You Start!: Section_1_i2_Read Before You Start!.md
+      - 3 Watch Before You Start!: Section_1_i3_Watch Before You Start!.md
+      - 4 Setting Up Our Code Editor: Section_1_i4_Setting Up Our Code Editor.md
+
+  - S2:
+      - 5 Section Intro: Section_2_i5_Section Intro.md
+      - 6 Hello World!: Section_2_i6_Hello World!.md
+
+  - S3:
+      - 31 Section Intro: page_1.md
+
+  - S4:
+      - 41 Hello World!: page_2.md
+
+  - S5:
+      - 51 Hello World!: page_3.md
+
+  - S6:
+      - 61 Hello World!: page_4.md
+
+  - S7:
+      - 71 Hello World!: page_5.md
+
+  - S8:
+      - 81 Hello World!: page_6.md
+
+  - S9:
+      - 117 Sets: Section_9_i117_Sets.md
+      - 118 Maps Fundamentals: Section_9_i118_Maps Fundamentals.md
+      - 119 Maps Iteration: Section_9_i119_Maps Iteration.md
+
+  - S10:
+      - 101 Hello World!: page_8.md
+
+  - S11:
+      - 111 Hello World!: page_9.md
+
+  - S12:
+      - 121 Hello World!: page_10.md
+
+  - S13:
+      - 131 Hello World!: page_11.md
+
+  - S14:
+      - 141 Hello World!: page_12.md
+
+  - S15:
+      - 151 Hello World!: page_13.md
+
+  - S16:
+      - 161 Hello World!: page_14.md
+
+  - S17:
+      - 171 Hello World!: page_15.md
+
+###########################################################################
+###########################################################################
+# Project information
+site_name: The Complete JavaScript Course 2024 by Jonas #Xiaoyu NoteBook
+site_author: Riley
+
+# Copyright
+copyright: Copyright &copy; 2015 - 2023 Riley
+
+# Configuration
+theme:
+  #name: Litera #yeti #cerulean #gitbook #material #mkdocs #material
+  name: material
+
+  favicon: assets/water.png
+  icon:
+    logo: material/library #material/cat
+
+  font:
+    code: Roboto Mono
+
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.tracking
+    - navigation.footer
+    - navigation.tabs
+    - navigation.sections
+    #- navigation.expand
+    - navigation.top
+
+    - navigation.instant ###
+    - navigation.tabs ###
+    #- navigation.tabs.sticky
+    - content.tabs.link
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: amber #green
+      accent: blue #green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+#Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tanyusheng
+    - icon: fontawesome/brands/zhihu
+      link: https://www.zhihu.com/people/tan-yu-sheng-63
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/22048069
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCX0mNfkFoEHL2HNrfGK2gMA
+    #- type: "github"
+    #  link: "https://github.com/xxxx"
+    #- type: "twitter"
+    #  link: "https://twitter.com/xxxx"
+    #- type: "linkedin"
+    #  link: "https://www.linkedin.com/in/xxxx"
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+plugins:
+  - search
+###########################################################################
+
