@@ -65,7 +65,9 @@ nav:
 ###########################################################################
 # Project information
 site_name: The Complete JavaScript Course 2024 by Jonas #Xiaoyu NoteBook
-site_author: Riley
+site_url: https://owenaus.github.io/JavaScript-Course-Note/
+
+site_author: Owen
 
 # Copyright
 copyright: Copyright &copy; 2015 - 2023 Riley
