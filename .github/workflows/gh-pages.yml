@@ -15,6 +15,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CONFIG_FILE: mkdocs.yml
-          EXTRA_PACKAGES: build-basename: Deploy MkDocs to GitHub Pages
-
+          EXTRA_PACKAGES: build-base
 
