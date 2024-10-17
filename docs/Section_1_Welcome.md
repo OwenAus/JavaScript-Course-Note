@@ -66,7 +66,7 @@ We encourage you to contribute to GitBook to help us build the best tool for doc
 
 #### Translations
 
-The GitBook UI is rendered using a set of translation files found in [`packages/gitbook/src/intl/translations`](/packages/gitbook/src/intl/translations/). We welcome all additional translations for the UI.
+The GitBook UI is rendered using a set of translation files found in [`packages/gitbook/src/intl/translations`]. We welcome all additional translations for the UI.
 
 #### Bugs
 
